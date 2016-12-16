@@ -4,8 +4,8 @@
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
 // @import "compass/reset";
-$title_font: 'Roboto', sans-serif;
-$body_font: 'Open Sans', sans-serif;
+$title_font: 'Open Sans', sans-serif;
+$body_font: 'Raleway', sans-serif;
 $primaryColor: #9E7CC1;
 $secondaryColor: #C5E26A;
 $lightGray: mix($primaryColor, #fafafa, 10%);
@@ -25,6 +25,11 @@ body {
 
 h1, .h1, h2, .h2, h3, .h3 {
   font-family: $title_font;
+}
+
+.jumbotron {
+  background-color: transparent;
+  text-align: center;
 }
 
 .box {
@@ -51,11 +56,11 @@ h1, .h1, h2, .h2, h3, .h3 {
   margin: 0 auto;
   display: block;
   min-height: 150px;
-  width: 60%;
+  width: 70%;
 }
 
 .swatch {
-  @include box(25%, 150px);
+  @include box(20%, 150px);
   margin: 60px 0;
   float: left;
 }
@@ -88,6 +93,10 @@ h1, .h1, h2, .h2, h3, .h3 {
   background-color: $lightGray;
 }
 
+.black {
+  background-color: #333;
+}
+
 .underline {
   border-bottom: 2px solid #ccc;
 }
@@ -118,4 +127,13 @@ em {
 
 .light-gray-font {
   color: $lightGray;
+}
+
+.headers {
+  margin-top: 70px;
+}
+
+td {
+  padding: 10px;
+  vertical-align: middle;
 }
