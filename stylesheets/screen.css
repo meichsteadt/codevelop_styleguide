@@ -49,7 +49,7 @@ section {
 /* line 39, ../sass/_color.scss */
 .swatch {
   width: 20%;
-  height: 150px;
+  height: 10vh;
   margin: 60px 0;
   float: left;
 }
@@ -65,7 +65,7 @@ section {
 .color {
   display: block;
   width: 100%;
-  height: 240px;
+  height: 15vh;
   margin: 20px 0;
 }
 
@@ -182,122 +182,195 @@ td {
   background-color: #efdfff;
 }
 /* line 21, ../sass/_navbar.scss */
+.navbar-default .navbar-nav > .alt > a, .navbar-default .navbar-nav > .alt > a:hover, .navbar-default .navbar-nav > .alt > a:focus {
+  color: #784da3;
+  background-color: #ececec;
+}
+/* line 25, ../sass/_navbar.scss */
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
   color: #784da3;
   background-color: #efdfff;
 }
-/* line 24, ../sass/_navbar.scss */
+/* line 28, ../sass/_navbar.scss */
 .navbar-default .navbar-toggle {
   border-color: #efdfff;
 }
-/* line 26, ../sass/_navbar.scss */
+/* line 30, ../sass/_navbar.scss */
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
   background-color: #efdfff;
 }
-/* line 28, ../sass/_navbar.scss */
+/* line 32, ../sass/_navbar.scss */
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #9E7CC1;
 }
-/* line 30, ../sass/_navbar.scss */
+/* line 34, ../sass/_navbar.scss */
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
   border-color: #9E7CC1;
 }
-/* line 33, ../sass/_navbar.scss */
+/* line 37, ../sass/_navbar.scss */
 .navbar-default .navbar-link {
   color: #9E7CC1;
 }
-/* line 35, ../sass/_navbar.scss */
+/* line 39, ../sass/_navbar.scss */
 .navbar-default .navbar-link:hover {
   color: #784da3;
 }
 
 @media (max-width: 767px) {
-  /* line 38, ../sass/_navbar.scss */
+  /* line 42, ../sass/_navbar.scss */
   .navbar-form {
     display: none;
   }
 
-  /* line 42, ../sass/_navbar.scss */
+  /* line 46, ../sass/_navbar.scss */
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
     color: #9E7CC1;
   }
-  /* line 44, ../sass/_navbar.scss */
+  /* line 48, ../sass/_navbar.scss */
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
     color: #784da3;
   }
-  /* line 47, ../sass/_navbar.scss */
+  /* line 51, ../sass/_navbar.scss */
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
     color: #784da3;
     background-color: #efdfff;
   }
 }
-/* line 52, ../sass/_navbar.scss */
+/* line 56, ../sass/_navbar.scss */
 .navbar-brand {
   position: relative;
   padding: 0 15px;
 }
-/* line 55, ../sass/_navbar.scss */
+/* line 59, ../sass/_navbar.scss */
 .navbar-brand .fa-copyright {
   position: absolute;
   left: 22px;
 }
 @media screen and (min-width: 767px) {
-  /* line 60, ../sass/_navbar.scss */
+  /* line 64, ../sass/_navbar.scss */
   .navbar-brand {
     top: -2px;
   }
 }
 
-/* line 66, ../sass/_navbar.scss */
+/* line 70, ../sass/_navbar.scss */
 .search-button {
-  position: relative;
-  left: -5px;
+  position: absolute;
+  right: 15px;
 }
-/* line 69, ../sass/_navbar.scss */
+/* line 73, ../sass/_navbar.scss */
 .nav-form .search-button {
-  width: 9%;
+  width: 40px;
 }
 
-/* line 74, ../sass/_navbar.scss */
+/* line 78, ../sass/_navbar.scss */
 .search {
-  width: 89%;
+  width: 95%;
   margin: 0;
   display: inline-block;
 }
 
-/* line 82, ../sass/_navbar.scss */
+/* line 86, ../sass/_navbar.scss */
 .nav-icons {
   text-align: center;
   display: block;
 }
-/* line 85, ../sass/_navbar.scss */
+/* line 89, ../sass/_navbar.scss */
 .nav-icons .icon {
   color: #9E7CC1;
   font-size: 40px;
 }
 @media screen and (min-width: 767px) {
-  /* line 90, ../sass/_navbar.scss */
+  /* line 94, ../sass/_navbar.scss */
   .nav-icons {
     display: none;
   }
 }
-/* line 94, ../sass/_navbar.scss */
+/* line 98, ../sass/_navbar.scss */
 .nav-icons li {
   list-style: none;
 }
-/* line 97, ../sass/_navbar.scss */
+/* line 101, ../sass/_navbar.scss */
 .nav-icons ul {
   margin: 0;
 }
 
-/* line 102, ../sass/_navbar.scss */
+/* line 106, ../sass/_navbar.scss */
 .nav-form {
-  display: default;
+  display: block;
 }
 @media screen and (min-width: 767px) {
-  /* line 105, ../sass/_navbar.scss */
+  /* line 109, ../sass/_navbar.scss */
   .nav-form {
     display: none;
+  }
+}
+
+/* line 115, ../sass/_navbar.scss */
+.form-group {
+  width: 100%;
+}
+
+/* line 119, ../sass/_navbar.scss */
+.dropdown-menu {
+  right: -40px;
+  left: auto;
+}
+@media screen and (min-width: 682px) {
+  /* line 123, ../sass/_navbar.scss */
+  .dropdown-menu {
+    left: 0;
+    right: auto;
+  }
+}
+
+/* line 130, ../sass/_navbar.scss */
+.navbar-form {
+  width: 50%;
+  margin: 10px auto;
+  position: absolute;
+  left: 30%;
+  transform: translate(-30%, 0);
+}
+@media screen and (min-width: 992px) {
+  /* line 137, ../sass/_navbar.scss */
+  .navbar-form {
+    left: 35%;
+    transform: translate(-35%, 0);
+  }
+}
+
+@media (min-width: 768px) {
+  /* line 146, ../sass/_navbar.scss */
+  .navbar-form > .form-group .form-control {
+    width: 95%;
+  }
+}
+/* line 150, ../sass/_navbar.scss */
+.form-control:focus {
+  border-color: #9E7CC1;
+}
+
+/* line 1, ../sass/_components.scss */
+#components {
+  margin-top: -100px;
+}
+
+/* line 5, ../sass/_components.scss */
+.panel {
+  background-color: #f1edf4;
+  padding: 20px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.35), -1px 1px 3px rgba(0, 0, 0, 0.35);
+}
+
+/* line 11, ../sass/_components.scss */
+.right-sidebar {
+  display: none;
+}
+@media screen and (min-width: 992px) {
+  /* line 14, ../sass/_components.scss */
+  .right-sidebar {
+    display: block;
   }
 }

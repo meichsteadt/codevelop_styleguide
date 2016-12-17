@@ -37,7 +37,7 @@ section {
 }
 
 .swatch {
-  @include box(20%, 150px);
+  @include box(20%, 10vh);
   margin: 60px 0;
   float: left;
 }
@@ -50,7 +50,7 @@ section {
 
 .color {
   display: block;
-  @include box(100%, 240px);
+  @include box(100%, 15vh);
   margin: 20px 0;
 }
 

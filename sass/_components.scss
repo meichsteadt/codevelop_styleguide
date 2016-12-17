@@ -1,0 +1,23 @@
+#components {
+  margin-top: -100px;
+}
+
+.panel {
+  background-color: $lightGray;
+  padding: 20px;
+  @include shadow_card;
+}
+
+.right-sidebar {
+  display: none;
+  @media screen and (min-width: 992px) {
+    & {
+      display: block;
+    }
+  }
+}
+
+// .left-sidebar {
+//   display: none;
+//   @media screen and (min-width: )
+// }

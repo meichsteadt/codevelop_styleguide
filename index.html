@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto|Raleway" rel="stylesheet">
@@ -11,7 +12,7 @@
     <title></title>
   </head>
   <body>
-    <section id="styles">
+    <section id="colors">
       <div class="container">
         <div class="jumbotron">
           <h1>Codevelop Styleguide</h1>
@@ -62,6 +63,11 @@
             <div class="swatch black">&nbsp;</div>
           </div>
         </div>
+      </div>
+      </section>
+
+      <section id="typography">
+        <div class="container">
         <div class="typography-section">
           <h1>Typography</h1>
           <div class="underline"></div>
@@ -105,11 +111,15 @@
         </div>
       </div>
     </section>
-    <section id="components">
-      <h1>Components</h1>
-      <div class="underline"></div>
-      <h2>Navbar</h2>
-      <p><small>Logo on the left is temporary obviously</small>. Also shrike the window to check out the mobile</p>
+
+    <section id="navbar">
+      <div class="container">
+        <h1>Components</h1>
+        <div class="underline"></div>
+        <h2>Navbar</h2>
+        <p><small>Logo on the left is temporary obviously</small>. Also shrike the window to check out the mobile</p>
+        <p>Two options for the active state link. Gray and purple. Which do you like more?</p>
+      </div>
         <div class="row">
           <div class="col-xs-12">
             <form class="form-inline nav-form navbar-left">
@@ -168,7 +178,7 @@
             </form>
             <ul class="nav navbar-nav navbar-right">
               <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-              <li><a href="#">Link</a></li>
+              <li class="alt"><a href="#">Link</a></li>
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
                 <ul class="dropdown-menu">
@@ -183,6 +193,39 @@
           </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
       </nav>
+    </section>
+
+    <section id="components">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-3 left-sidebar">
+            <div class="panel">
+              <h3>Left sidebar</h3>
+              <p>Occupy kitsch plaid cornhole tattooed sartorial four dollar toast pour-over. Irony tilde retro, messenger bag hammock gluten-free seitan +1 intelligentsia literally. Chicharrones ramps forage, vegan tousled wayfarers franzen. Biodiesel heirloom migas umami cold-pressed, knausgaard vinyl marfa affogato iPhone 3 wolf moon waistcoat. Tofu marfa cliche synth gochujang, knausgaard chartreuse. Cardigan cornhole irony, plaid bitters XOXO keffiyeh. Microdosing pop-up 3 wolf moon crucifix sriracha.</p>
+            </div>
+          </div>
+          <div class="col-md-7 col-sm-9 content">
+            <div class="panel">
+              <h3>Content panel</h3>
+              <p>Occupy kitsch plaid cornhole tattooed sartorial four dollar toast pour-over. Irony tilde retro, messenger bag hammock gluten-free seitan +1 intelligentsia literally. Chicharrones ramps forage, vegan tousled wayfarers franzen. Biodiesel heirloom migas umami cold-pressed, knausgaard vinyl marfa affogato iPhone 3 wolf moon waistcoat. Tofu marfa cliche synth gochujang, knausgaard chartreuse. Cardigan cornhole irony, plaid bitters XOXO keffiyeh. Microdosing pop-up 3 wolf moon crucifix sriracha.</p>
+            </div>
+            <div class="panel">
+              <h3>Content panel</h3>
+              <pre><code>&#60;div class="col-md-7 col-sm-9 content"&#62;<br>  &#60;div class="panel"&#62;<br>    &#60;h3&#62;Content panel &#60;/h3&#62;<br>    &#60;p&#62;&#60;/p&#62;<br>  &#60;/div&#62;<br>&#60;/div&#62;</code></pre>
+            </div>
+          </div>
+          <div class="col-md-2 right-sidebar">
+            <div class="panel">
+              <h3>Right sidebar</h3>
+              <p>Occupy kitsch plaid cornhole tattooed sartorial four dollar toast pour-over. Irony tilde retro</p>
+            </div>
+            <div class="panel">
+              <h3>Right sidebar</h3>
+              <p>Occupy kitsch plaid cornhole tattooed sartorial four dollar toast pour-over. Irony tilde retro</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
   </body>
 </html>
