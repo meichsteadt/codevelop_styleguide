@@ -354,22 +354,27 @@ td {
 
 /* line 1, ../sass/_components.scss */
 #components {
-  margin-top: -100px;
+  background-color: #FAFAFA;
 }
 
 /* line 5, ../sass/_components.scss */
+#components .row {
+  margin-top: 50px;
+}
+
+/* line 9, ../sass/_components.scss */
 .panel {
-  background-color: #f1edf4;
+  background-color: #FFF;
   padding: 20px;
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.35), -1px 1px 3px rgba(0, 0, 0, 0.35);
 }
 
-/* line 11, ../sass/_components.scss */
+/* line 15, ../sass/_components.scss */
 .right-sidebar {
   display: none;
 }
 @media screen and (min-width: 992px) {
-  /* line 14, ../sass/_components.scss */
+  /* line 18, ../sass/_components.scss */
   .right-sidebar {
     display: block;
   }
