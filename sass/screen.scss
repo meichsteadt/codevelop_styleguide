@@ -9,4 +9,7 @@
 @import "color";
 @import "typeography";
 @import "navbar";
-@import "components"
+@import "components";
+body {
+  background-color: $bodyBackground;
+}
