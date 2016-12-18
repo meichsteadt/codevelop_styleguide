@@ -1,0 +1,72 @@
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+body {
+  font-family: "Raleway", sans-serif;
+  background-color: #FAFAFA; }
+  body::after {
+    clear: both;
+    content: "";
+    display: block; }
+
+nav {
+  background-color: #fff;
+  border-color: #efdfff; }
+  nav .brand-logo, nav ul a {
+    color: #9E7CC1; }
+  nav a {
+    color: #9E7CC1; }
+  @media screen and (min-width: 992px) {
+    nav form {
+      width: 50%;
+      display: inline-block;
+      position: absolute;
+      left: 30%;
+      transform: translate(-30%, 0); } }
+  nav .input-field label i {
+    color: #9E7CC1; }
+  nav .input-field input {
+    border: 1px solid #ddd;
+    height: 65%; }
+
+.input-field:first-of-type {
+  margin-top: 0; }
+.input-field label.active {
+  transform: translateY(0); }
+
+.brand-logo {
+  position: relative;
+  left: 15px;
+  padding: 0 15px; }
+  .brand-logo .fa-copyright {
+    position: absolute;
+    left: 9px; }
+  @media screen and (min-width: 767px) {
+    .brand-logo {
+      top: -2px; } }
+
+.dropdown-content li > a {
+  color: #9E7CC1; }
+
+input[type='search'] {
+  border: 1px solid #ddd; }
+  @media screen and (min-width: 992px) {
+    input[type='search'] {
+      position: absolute;
+      top: 50%;
+      transform: translate(0, -50%); } }
+
+.card {
+  padding: 10px; }
+
+@media only screen and (min-width: 993px) {
+  .container {
+    width: 85%; } }
+
+.content {
+  margin-top: 50px; }
+
+/*# sourceMappingURL=main.css.map */
