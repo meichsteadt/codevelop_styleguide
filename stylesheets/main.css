@@ -1,0 +1,116 @@
+/* line 4, ../sass/neat/grid/_box-sizing.scss */
+html {
+  box-sizing: border-box;
+}
+
+/* line 9, ../sass/neat/grid/_box-sizing.scss */
+*, *::after, *::before {
+  box-sizing: inherit;
+}
+
+/* line 5, ../sass/main.scss */
+body {
+  font-family: "Raleway", sans-serif;
+  background-color: #FAFAFA;
+}
+/* line 20, ../sass/neat/mixins/_clearfix.scss */
+body::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+/* line 11, ../sass/main.scss */
+nav {
+  background-color: #fff;
+  border-color: #efdfff;
+}
+/* line 14, ../sass/main.scss */
+nav .brand-logo, nav ul a {
+  color: #9E7CC1;
+}
+/* line 17, ../sass/main.scss */
+nav a {
+  color: #9E7CC1;
+}
+@media screen and (min-width: 992px) {
+  /* line 22, ../sass/main.scss */
+  nav form {
+    width: 50%;
+    display: inline-block;
+    position: absolute;
+    left: 30%;
+    transform: translate(-30%, 0);
+  }
+}
+/* line 32, ../sass/main.scss */
+nav .input-field label i {
+  color: #9E7CC1;
+}
+/* line 35, ../sass/main.scss */
+nav .input-field input {
+  border: 1px solid #ddd;
+  height: 65%;
+}
+
+/* line 43, ../sass/main.scss */
+.input-field:first-of-type {
+  margin-top: 0;
+}
+/* line 46, ../sass/main.scss */
+.input-field label.active {
+  transform: translateY(0);
+}
+
+/* line 51, ../sass/main.scss */
+.brand-logo {
+  position: relative;
+  left: 15px;
+  padding: 0 15px;
+}
+/* line 55, ../sass/main.scss */
+.brand-logo .fa-copyright {
+  position: absolute;
+  left: 9px;
+}
+@media screen and (min-width: 767px) {
+  /* line 60, ../sass/main.scss */
+  .brand-logo {
+    top: -2px;
+  }
+}
+
+/* line 66, ../sass/main.scss */
+.dropdown-content li > a {
+  color: #9E7CC1;
+}
+
+/* line 70, ../sass/main.scss */
+input[type='search'] {
+  border: 1px solid #ddd;
+}
+@media screen and (min-width: 992px) {
+  /* line 72, ../sass/main.scss */
+  input[type='search'] {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+  }
+}
+
+/* line 81, ../sass/main.scss */
+.card {
+  padding: 10px;
+}
+
+@media only screen and (min-width: 993px) {
+  /* line 87, ../sass/main.scss */
+  .container {
+    width: 85%;
+  }
+}
+
+/* line 93, ../sass/main.scss */
+.content {
+  margin-top: 50px;
+}
