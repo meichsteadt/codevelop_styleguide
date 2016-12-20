@@ -16,9 +16,9 @@ nav {
   background-color: #fff;
   border-color: #efdfff; }
   nav .brand-logo, nav ul a {
-    color: #9E7CC1; }
+    color: #00695C; }
   nav a {
-    color: #9E7CC1; }
+    color: #00695C; }
   @media screen and (min-width: 992px) {
     nav form {
       width: 50%;
@@ -27,7 +27,7 @@ nav {
       left: 30%;
       transform: translate(-30%, 0); } }
   nav .input-field label i {
-    color: #9E7CC1; }
+    color: #00695C; }
   nav .input-field input {
     border: 1px solid #ddd;
     height: 65%; }
@@ -49,7 +49,7 @@ nav {
       top: -2px; } }
 
 .dropdown-content li > a {
-  color: #9E7CC1; }
+  color: #00695C; }
 
 input[type='search'] {
   border: 1px solid #ddd; }
@@ -73,7 +73,7 @@ input[type='search'] {
 .center-text {
   text-align: center;
   margin-bottom: 30px;
-  color: #9E9E9E;
+  color: #4B484F;
 }
 
 #sign-up-form {
@@ -83,30 +83,30 @@ input[type='search'] {
 
 /* override materialize label focus color */
   .input-field input[type=text]:focus + label, input[type="password"]:focus:not([readonly]) + label {
-    color: #4B484F;
+    color: #00796B;
 }
 /* override materialize label underline focus color */
   .input-field input[type=text]:focus, .input-field input[type=password]:focus {
-    border-bottom: 1px solid #4B484F;
-    box-shadow: 0 1px 0 0 #4B484F;
+    border-bottom: 1px solid #00796B;
+    box-shadow: 0 1px 0 0 #00796B;
   }
 
 /* override materialize label icon prefix color */
   .input-field .prefix.active {
-    color: #4B484F;
+    color: #00796B;
   }
 
   .input-field .prefix {
-    color: #9E9E9E;
+    color: #4B484F;
   }
 
 
 .secondary-color {
-  background-color: #C5E26A !important;
+  background-color: #00695C !important;
 }
 
 .text-muted {
-  color: #9E9E9E;
+  color: #4B484F;
 }
 
 /*# sourceMappingURL=main.css.map */
